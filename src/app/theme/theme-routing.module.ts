@@ -26,6 +26,10 @@ const routes: Routes = [
                 "loadChildren": ".\/pages\/default\/not-found\/not-found.module#NotFoundModule"
             },
             {
+                "path": "branch",
+                "loadChildren": ".\/pages\/default\/not-found\/not-found.module#NotFoundModule"
+            },
+            {
                 "path": "",
                 "redirectTo": "index",
                 "pathMatch": "full"
